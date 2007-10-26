@@ -25,6 +25,8 @@
  * User extension of class SC_index for the 'ml_dbsync'-extension 
  *
  * @author	Markus Friedrich <markus.friedrich@media-lights.de>
+ * @package TYPO3
+ * @subpackage	tx_dbsync
  */
 class ux_SC_index extends SC_index {
 	

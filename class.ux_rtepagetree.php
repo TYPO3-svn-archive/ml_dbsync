@@ -25,6 +25,8 @@
  * User extension of class rtePageTree for the 'ml_dbsync'-extension 
  *
  * @author	Markus Friedrich <markus.friedrich@media-lights.de>
+ * @package TYPO3
+ * @subpackage	tx_dbsync
  */
 
 class ux_rtePageTree extends rtePageTree {
@@ -212,7 +214,7 @@ class ux_rtePageTree extends rtePageTree {
 
 }
 
-if (defined("TYPO3_MODE") && $TYPO3_CONF_VARS[TYPO3_MODE]["XCLASS"]["ext/ml_dbsync/class.ux_rtepagetree.php"])	{
-	include_once($TYPO3_CONF_VARS[TYPO3_MODE]["XCLASS"]["ext/ml_dbsync/class.ux_rtepagetree.php"]);
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_rtepagetree.php'])	{
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_rtepagetree.php']);
 }
 ?>

@@ -1,2 +1,8 @@
-# cat=basic; type=boolean; label=lockUsers: Enable this option if you want to disable users during the import process
+# cat=basic; type=boolean; label=useTemplaVoila: If set ml_dbsync will create / remove references in TemplaVoila
+useTemplaVoila = 0
+
+# cat=basic; type=boolean; label=lockUsers: Enable this option, if you want to disable users during the import process
 lockUsers = 0
+
+# cat=basic; type=boolean; label=enableLogging: If set ml_dbsync will log each database query
+enableLogging = 0

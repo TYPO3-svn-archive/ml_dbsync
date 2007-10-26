@@ -22,6 +22,8 @@ CREATE TABLE tx_mldbsync_log (
 	startPID int(11) DEFAULT '0',
 	id int(11) DEFAULT '0',
 	contentID varchar(255) DEFAULT '',
+	sys_language_uid int(11) DEFAULT '0',
+	
 	
 	PRIMARY KEY (logid),
 );
@@ -33,6 +35,7 @@ CREATE TABLE tx_mldbsync_log (
 CREATE TABLE tx_mldbsync_xmlfiles (
 	fileid int(11) NOT NULL auto_increment,
 	active tinyint(3) DEFAULT '0',
+	gabriel_enabled tinyint(3) DEFAULT '0',
 	file varchar(255) DEFAULT '',
 	pid int(11) DEFAULT '0',
 	hidden tinyint(3) DEFAULT '0',

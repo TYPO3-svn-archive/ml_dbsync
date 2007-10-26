@@ -22,13 +22,15 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /** 
- * User extension of class localPageTree for the 'ml_dbsync'-extension 
+ * User extension of class rtePageTree for the 'ml_dbsync'-extension 
  *
  * @author	Markus Friedrich <markus.friedrich@media-lights.de>
  * @package TYPO3
  * @subpackage	tx_dbsync
  */
-class ux_localPageTree extends localPageTree {
+
+
+class ux_tx_rtehtmlarea_pageTree extends tx_rtehtmlarea_pageTree {
 
 	/**
 	 * Get icon for the row.
@@ -60,6 +62,7 @@ class ux_localPageTree extends localPageTree {
 	 */
 	function getIconImage($table,$row=array(),$backPath,$params='',$shaded=FALSE)	{
 		$iconFile = $this->getIcons($table,$row,$shaded);
+
 		$str='<img'.t3lib_iconWorks::skinImg($backPath,$iconFile,'width="18" height="16"').(trim($params)?' '.trim($params):'');
 		if (!stristr($str,'alt="'))	$str.=' alt=""';
 		$str.=' />';
@@ -170,7 +173,7 @@ class ux_localPageTree extends localPageTree {
 				$string='deleted';
 				$flags='d';
 			} elseif ($noIconFound) {	// This is ONLY for creating icons with "?" on easily...
-				echo $string='no_icon_found';
+				$string='no_icon_found';
 				$flags='x';
 			} else {
 				if ($hidden) $string.='hidden';
@@ -212,7 +215,7 @@ class ux_localPageTree extends localPageTree {
 
 }
 
-if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_localpagetree.php'])	{
-	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_localpagetree.php']);
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_tx_rtehtmlarea_pagetree.php'])	{
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_tx_rtehtmlarea_pagetree.php']);
 }
 ?>

@@ -25,6 +25,8 @@
  * User extension of class localRecordList for the 'ml_dbsync'-extension 
  *
  * @author	Markus Friedrich <markus.friedrich@media-lights.de>
+ * @package TYPO3
+ * @subpackage	tx_dbsync
  */
 class ux_localRecordList extends localRecordList {
 
@@ -462,8 +464,8 @@ class ux_localRecordList extends localRecordList {
 
 }
 
-if (defined("TYPO3_MODE") && $TYPO3_CONF_VARS[TYPO3_MODE]["XCLASS"]["ext/ml_dbsync/class.ux_localrecordlist.php"])	{
-	include_once($TYPO3_CONF_VARS[TYPO3_MODE]["XCLASS"]["ext/ml_dbsync/class.ux_localrecordlist.php"]);
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_localrecordlist.php'])	{
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_localrecordlist.php']);
 }
 
 ?>

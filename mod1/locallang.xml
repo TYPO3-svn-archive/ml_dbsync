@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module 'ml_dbsync'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+            <label index="function1">DB Sync</label>
+            <label index="function2">Configuration</label>
+            
+            <label index="addFields">Add Fields</label>
+            <label index="btn_activate">activate</label>
+            <label index="btn_back">Back</label>
+            <label index="btn_deactivate">deactivate</label>
+            <label index="connectedToDB">Succesfully connected to Database</label>
+            <label index="createdContents">Created Contents</label>
+            <label index="createdContents_error">Errors Creating Contents</label>
+            <label index="createdPages">Created Pages</label>
+            <label index="createdPages_error">Errors Creating Pages</label>
+            <label index="database">Database</label>
+            <label index="download_logfile">Download dbsync logfile</label>
+            <label index="fileNotFound">XML File doesn't exist</label>
+            <label index="hint_import">(insert)</label>
+            <label index="hint_update">(update)</label>
+            <label index="importFile">import/update</label>
+            <label index="importMode">Import Mode</label>
+            <label index="importPagesAsHidden">hidden</label>
+            <label index="importPagesAsVisible">visible</label>
+            <label index="invalidFile">XML File is not valid</label>
+            <label index="msg_configureXml">Configure XML files to be executed via gabriel.</label>
+            <label index="msg_lockfileFound">Import is running please wait until it's finished!</label>
+            <label index="notConnectedToDB">Couldn't connect to database</label>
+            <label index="nothingToImport">Nothing to import!</label>
+            <label index="pid">pid</label>
+            <label index="removeFile">remove</label>
+            <label index="submitBtn">Import/Update checked Contents</label>
+            <label index="title">DB Sync</label>
+            <label index="updatedContents">Updated Contents</label>
+            <label index="updatedContents_error">Erorrs Updating Contents</label>
+            <label index="updatedPages">Updated Pages</label>
+            <label index="updatedPages_error">Errors Updating Pages</label>
+            <label index="validFile">XML File is valid</label>
+            <label index="xmlFile">XML File</label>
+
+		</languageKey>
+		<languageKey index="de" type="array">
+		</languageKey>
+	</data>
+</T3locallang>

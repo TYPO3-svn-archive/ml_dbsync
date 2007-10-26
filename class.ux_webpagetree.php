@@ -22,13 +22,13 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /** 
- * User extension of class localPageTree for the 'ml_dbsync'-extension 
+ * User extension of class webPageTree for the 'ml_dbsync'-extension 
  *
  * @author	Markus Friedrich <markus.friedrich@media-lights.de>
  * @package TYPO3
  * @subpackage	tx_dbsync
  */
-class ux_localPageTree extends localPageTree {
+class ux_webPageTree extends webPageTree {
 
 	/**
 	 * Get icon for the row.
@@ -212,7 +212,7 @@ class ux_localPageTree extends localPageTree {
 
 }
 
-if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_localpagetree.php'])	{
-	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_localpagetree.php']);
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_webpagetree.php'])	{
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/ml_dbsync/class.ux_webpagetree.php']);
 }
 ?>

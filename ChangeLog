@@ -1,4 +1,17 @@
+07-10-26 Markus Friedrich  <markus.friedrich@media-lights.de>
+	* lockfile prevents multiple executions
+	* locallang files converted to xml
+
+07-07-20 Markus Friedrich  <markus.friedrich@media-lights.de>
+	* templa voila support
+
+07-02-28 Markus Friedrich  <markus.friedrich@media-lights.de>
+	* revision according to the coding guidelines
+	* multi language features
+	* arguments for library init functions
+	* gabriel interface and backend configuration module for this interface
+	* synchronisations logged in 'uploads/tx_mldbsync/tx_mldbsync.log'
+	* detailed logging mode, each step is logged
 
 06-12-08 Markus Friedrich  <markus.friedrich@media-lights.de>
-
 	* Initial release
